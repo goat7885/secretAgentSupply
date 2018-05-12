@@ -37,7 +37,16 @@ header img {
 
 }
 
-#banner .banner-content {
+.banner-container {
+  display: flex;
+  width: 960px;
+  margin: 0 auto;
+  align-items: flex-start;
+  border: 1px solid red;
+}
+
+
+.banner-content {
   display: flex;
   border: 1px solid red;
   width: 25rem;
@@ -46,7 +55,6 @@ header img {
   padding-bottom: 2rem;
   flex-direction: column;
   background-color: black;
-  margin-left: 10rem;
   margin-top: 6rem;
   height: 10rem;
   position: relative;
@@ -63,4 +71,17 @@ header img {
 .banner-content h1 {
   font-size: 2rem;
   font-weight: bold;
+}
+
+nav {
+  background-color: firebrick;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
