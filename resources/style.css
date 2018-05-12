@@ -3,4 +3,64 @@ body {
   font-family: Helvetica;
   background-color: black;
   color: white;
+
+}
+
+header {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  height: 3.5rem;
+
+}
+
+header img {
+  border: 1px solid red;
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+#banner {
+  background-image: url(../resources/images/moto.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid red;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+}
+
+#banner .banner-content {
+  display: flex;
+  border: 1px solid red;
+  width: 25rem;
+  padding-left: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  flex-direction: column;
+  background-color: black;
+  margin-left: 10rem;
+  margin-top: 6rem;
+  height: 10rem;
+  position: relative;
+
+
+}
+
+.banner-content h3  {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.banner-content h1 {
+  font-size: 2rem;
+  font-weight: bold;
 }
